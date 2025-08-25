@@ -2,18 +2,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow"/>
-    <title>Submit Ticket - TiVistation</title>
+    <title><?php echo isset($page_title) ? $page_title : 'TiVistation'; ?></title>
     <!-- Styling -->
 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
 <!-- FontAwesome CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="../assets/css/login/all.min.css?v=2ecd99" rel="stylesheet">
+<link href="/iptv/assets/css/login/all.min.css?v=2ecd99" rel="stylesheet">
 
-<link href="../assets/css/login/theme.min.css?v=2ecd99" rel="stylesheet">
-<link href="../assets/css/login/custom.css" rel="stylesheet">
-<link href="../assets/css/login/open-sans-family.css" rel="stylesheet" type="text/css" />
+<link href="/iptv/assets/css/login/theme.min.css?v=2ecd99" rel="stylesheet">
+<link href="/iptv/assets/css/login/custom.css" rel="stylesheet">
+<link href="/iptv/assets/css/login/open-sans-family.css" rel="stylesheet" type="text/css" />
      <script>
       (function(d,t) {
         var BASE_URL="https://app.chatshippo.com";
@@ -37,9 +37,9 @@
         locale = 'en',
         saved = 'saved',
         saving = 'autosaving',
-        whmcsBaseUrl = "/billing";
+        whmcsBaseUrl = "/iptv";
     </script>
-<script src="../assets/js/scripts.min.js?v=2ecd99"></script>
+<script src="/iptv/assets/js/scripts.min.js?v=2ecd99"></script>
 
     
 <!-- Google Analytics -->

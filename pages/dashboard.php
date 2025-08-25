@@ -73,7 +73,17 @@ if ($pdo) {
 $flash = getFlashMessage();
 ?>
 
-<?php include __DIR__ . '/../includes/header.php'; ?>
+<?php
+// Include the head section
+include_once '../includes/head.php';
+?>
+
+<body class="primary-bg-color" data-phone-cc-input="1">
+
+<?php
+// Include the header
+include_once '../includes/header.php';
+?>
 
 <div class="container">
     <div class="dashboard-header">
@@ -83,11 +93,11 @@ $flash = getFlashMessage();
         </div>
         
         <div class="quick-actions">
-            <a href="<?php echo getPageUrl('channels.php'); ?>" class="btn btn-outline">
+            <a href="/iptv/pages/channel.php" class="btn btn-outline">
                 <i class="icon-tv"></i>
                 Parcourir les chaînes
             </a>
-            <a href="<?php echo getPageUrl('profile.php'); ?>" class="btn btn-outline">
+            <a href="/iptv/pages/profile.php" class="btn btn-outline">
                 <i class="icon-user"></i>
                 Mon profil
             </a>

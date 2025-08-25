@@ -167,11 +167,11 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-b9be462 elementor-widget elementor-widget-wgl-header-logo" data-id="b9be462" data-element_type="widget" data-widget_type="wgl-header-logo.default">
 				<div class="elementor-widget-container">
-			<div class="wgl-logotype-container default_logo"><a href="https://tivistation.com/"><img class="default_logo" src="https://tivistation.com/wp-content/uploads/2023/12/logo.png" alt="logotype"></a></div>		</div>
+			<div class="wgl-logotype-container default_logo"><a href="/iptv/index.php"><img class="default_logo" src="/iptv/index.php phpwp-content/uploads/2023/12/logo.png" alt="logotype"></a></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-92e461b elementor-widget elementor-widget-wgl-menu" data-id="92e461b" data-element_type="widget" data-widget_type="wgl-menu.default">
 				<div class="elementor-widget-container">
-			<nav class="primary-nav lavalamp_disable"><ul id="menu-primary-menu" class="menu"><li id="menu-item-2960" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2960"><a href="https://tivistation.com/"><span><span class="item_text">HOME</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3051" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3051"><a href="https://tivistation.com/billing/index.php?rp=/store/trial"><span><span class="item_text">IPTV TRIAL</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-2980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2980"><a href="https://tivistation.com/iptv-subscription/"><span><span class="item_text">IPTV SUBSCRIPTION</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3636"><a href="https://tivistation.com/installation-guide/"><span><span class="item_text">INSTALLATION GUIDE</span></span><i class="menu-item__plus"></i></a></li></ul></nav>        <div class="mobile-hamburger-toggle">
+			<nav class="primary-nav lavalamp_disable"><ul id="menu-primary-menu" class="menu"><li id="menu-item-2960" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2960"><a href="/iptv/index.php"><span><span class="item_text">HOME</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3051" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3051"><a href="/iptv/pages/trial.php"><span><span class="item_text">IPTV TRIAL</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-2980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2980"><a href="/iptv/pages/monthly.php"><span><span class="item_text">IPTV SUBSCRIPTION</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3636"><a href="/iptv/pages/contactUs.php"><span><span class="item_text">INSTALLATION GUIDE</span></span><i class="menu-item__plus"></i></a></li></ul></nav>        <div class="mobile-hamburger-toggle">
             <div class="hamburger-box">
             <div class="hamburger-inner">
             </div>
@@ -180,7 +180,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 				</div>
 				<div class="elementor-element elementor-element-25b32b2 elementor-widget elementor-widget-wgl-header-search" data-id="25b32b2" data-element_type="widget" data-widget_type="wgl-header-search.default">
 				<div class="elementor-widget-container">
-			<div class="header_search search_standard"><div class="wgl-search elementor-search header_search-button-wrapper" role="button"><div class="header_search-button flaticon-search-1"></div><div class="header_search-close"></div></div><div class="header_search-field"><form role="search" method="get" action="https://tivistation.com/" class="search-form"><input required type="text" id="search-form-68a77c0d9a705" class="search-field" placeholder="Search &hellip;" value="" name="s"><input class="search-button" type="submit" value="Search"><i class="search__icon flaticon-search-1"></i></form></div></div>		</div>
+			<div class="header_search search_standard"><div class="wgl-search elementor-search header_search-button-wrapper" role="button"><div class="header_search-button flaticon-search-1"></div><div class="header_search-close"></div></div><div class="header_search-field"><form role="search" method="get" action="/iptv/index.php" class="search-form"><input required type="text" id="search-form-68a77c0d9a705" class="search-field" placeholder="Search &hellip;" value="" name="s"><input class="search-button" type="submit" value="Search"><i class="search__icon flaticon-search-1"></i></form></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-ce832d1 elementor-widget elementor-widget-wgl-header-side_panel" data-id="ce832d1" data-element_type="widget" data-widget_type="wgl-header-side_panel.default">
 				<div class="elementor-widget-container">
@@ -191,9 +191,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 							</div>
 		</section>
 							</div>
-		</div></div><div class="wgl-sticky-header wgl-sticky-element" data-style="scroll_up"><div class="container-wrapper"></div></div><div class="wgl-mobile-header" style="background-color: rgba(15,20,27, 1);color: #ffffff;"><div class='container-wrapper'><div class="wgl-header-row wgl-header-row-section"><div class="wgl-container"><div class="wgl-header-row_wrapper" style="height: 100px;"><div class='position_left header_side'><div class="header_area_container"><nav class="primary-nav lavalamp_disable"  style="height: 100px;"><ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2960"><a href="https://tivistation.com/"><span><span class="item_text">HOME</span></span><i class="menu-item__plus"></i></a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3051"><a href="https://tivistation.com/billing/index.php?rp=/store/trial"><span><span class="item_text">IPTV TRIAL</span></span><i class="menu-item__plus"></i></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2980"><a href="https://tivistation.com/iptv-subscription/"><span><span class="item_text">IPTV SUBSCRIPTION</span></span><i class="menu-item__plus"></i></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3636"><a href="https://tivistation.com/installation-guide/"><span><span class="item_text">INSTALLATION GUIDE</span></span><i class="menu-item__plus"></i></a></li></ul></nav><div class="hamburger-box"><div class="hamburger-inner"><span></span><span></span><span></span></div></div></div></div><div class='position_center header_side'><div class="header_area_container"><div class="wgl-logotype-container logo-mobile"><a href="https://tivistation.com/"><img class="logo-mobile" src="https://tivistation.com/wp-content/uploads/2021/01/mobile-logo.png" alt="logotype"></a></div></div></div><div class='position_right header_side'><div class="header_area_container"><div class="header_search search_standard" style="height: 100px;"><div class="wgl-search elementor-search header_search-button-wrapper" role="button" id="starlitte_search_68a77c0d9b310"><div class="header_search-button flaticon-search-1"></div><div class="header_search-close"></div></div><div class="header_search-field"><form role="search" method="get" action="https://tivistation.com/" class="search-form"><input required type="text" id="search-form-68a77c0d9b360" class="search-field" placeholder="Search &hellip;" value="" name="s"><input class="search-button" type="submit" value="Search"><i class="search__icon flaticon-search-1"></i></form></div></div></div></div></div></div></div><div class='mobile_nav_wrapper' data-mobile-width='1200'><div class="container-wrapper"><div class="wgl-menu_overlay"></div><div class="wgl-menu_outer menu-position_left"><div class="wgl-menu-outer_header"><div class="mobile-hamburger-close"><div class="hamburger-box"><div class="hamburger-inner"><span></span><span></span><span></span></div></div></div></div><div class="wgl-menu-outer_content"><div class="wgl-logotype-container logo-menu"><a href="https://tivistation.com/"><img class="logo-menu" src="https://tivistation.com/wp-content/uploads/2021/01/mobile-logo.png" alt="logotype"></a></div><nav class="primary-nav"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-3652" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3652"><a href="/"><span><span class="item_text">HOME</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3653" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3653"><a href="https://tivistation.com/billing/index.php?rp=/store/trial"><span><span class="item_text">IPTV TRIAL</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3649" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3649"><a href="https://tivistation.com/billing/cart.php?a=view"><span><span class="item_text">VIEW CART</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3650" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3650"><a href="https://tivistation.com/billing/index.php?rp=/store/"><span><span class="item_text">VISIT STORE</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3651"><a href="https://tivistation.com/billing/clientarea.php"><span><span class="item_text">YOUR ACCOUNT</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3654"><a href="https://tivistation.com/iptv-subscription/"><span><span class="item_text">IPTV SUBSCRIPTION</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3655"><a href="https://tivistation.com/installation-guide/"><span><span class="item_text">INSTALLATION GUIDE</span></span><i class="menu-item__plus"></i></a></li></ul></nav></div></div></div></div></div></div></header><div class="side-panel_overlay"></div><section id="side-panel" class="side-panel side-panel_position_right" style="background-color: rgba(255,255,255,1);color: #616161;width: 370px;text-align: left;"><button class="side-panel_close"><span class="side-panel_close_icon"><span></span><span></span></span></button><div class="side-panel_sidebar" style="padding-top:50px; padding-bottom:50px; padding-left:50px; padding-right:50px;"><div id="nav_menu-2" class="widget starlitte_widget widget_nav_menu"><div class="menu-sidepanel-menu-container"><ul id="menu-sidepanel-menu" class="menu"><li id="menu-item-3642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3642"><a href="https://tivistation.com/billing/cart.php?a=view">VIEW CART</a></li>
-<li id="menu-item-3644" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3644"><a href="https://tivistation.com/billing/index.php?rp=/store/">VISIT STORE</a></li>
-<li id="menu-item-3645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3645"><a href="https://tivistation.com/billing/clientarea.php">YOUR ACCOUNT</a></li>
+		</div></div><div class="wgl-sticky-header wgl-sticky-element" data-style="scroll_up"><div class="container-wrapper"></div></div><div class="wgl-mobile-header" style="background-color: rgba(15,20,27, 1);color: #ffffff;"><div class='container-wrapper'><div class="wgl-header-row wgl-header-row-section"><div class="wgl-container"><div class="wgl-header-row_wrapper" style="height: 100px;"><div class='position_left header_side'><div class="header_area_container"><nav class="primary-nav lavalamp_disable"  style="height: 100px;"><ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2960"><a href="/iptv/index.php"><span><span class="item_text">HOME</span></span><i class="menu-item__plus"></i></a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3051"><a href="/iptv/pages/trial.php"><span><span class="item_text">IPTV TRIAL</span></span><i class="menu-item__plus"></i></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2980"><a href="/iptv/pages/monthly.php"><span><span class="item_text">IPTV SUBSCRIPTION</span></span><i class="menu-item__plus"></i></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3636"><a href="/iptv/pages/contactUs.php"><span><span class="item_text">INSTALLATION GUIDE</span></span><i class="menu-item__plus"></i></a></li></ul></nav><div class="hamburger-box"><div class="hamburger-inner"><span></span><span></span><span></span></div></div></div></div><div class='position_center header_side'><div class="header_area_container"><div class="wgl-logotype-container logo-mobile"><a href="/iptv/index.php"><img class="logo-mobile" src="https://tivistation.com/wp-content/uploads/2021/01/mobile-logo.png" alt="logotype"></a></div></div></div><div class='position_right header_side'><div class="header_area_container"><div class="header_search search_standard" style="height: 100px;"><div class="wgl-search elementor-search header_search-button-wrapper" role="button" id="starlitte_search_68a77c0d9b310"><div class="header_search-button flaticon-search-1"></div><div class="header_search-close"></div></div><div class="header_search-field"><form role="search" method="get" action="/iptv/index.php" class="search-form"><input required type="text" id="search-form-68a77c0d9b360" class="search-field" placeholder="Search &hellip;" value="" name="s"><input class="search-button" type="submit" value="Search"><i class="search__icon flaticon-search-1"></i></form></div></div></div></div></div></div></div><div class='mobile_nav_wrapper' data-mobile-width='1200'><div class="container-wrapper"><div class="wgl-menu_overlay"></div><div class="wgl-menu_outer menu-position_left"><div class="wgl-menu-outer_header"><div class="mobile-hamburger-close"><div class="hamburger-box"><div class="hamburger-inner"><span></span><span></span><span></span></div></div></div></div><div class="wgl-menu-outer_content"><div class="wgl-logotype-container logo-menu"><a href="/iptv/index.php"><img class="logo-menu" src="https://tivistation.com/wp-content/uploads/2021/01/mobile-logo.png" alt="logotype"></a></div><nav class="primary-nav"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-3652" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3652"><a href="/"><span><span class="item_text">HOME</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3653" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3653"><a href="/iptv/pages/trial.php"><span><span class="item_text">IPTV TRIAL</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3649" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3649"><a href="/iptv/pages/channel.php"><span><span class="item_text">VIEW CART</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3650" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3650"><a href="/iptv/pages/trial.php"><span><span class="item_text">VISIT STORE</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3651"><a href="/iptv/pages/login.php"><span><span class="item_text">YOUR ACCOUNT</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3654"><a href="/iptv/pages/monthly.php"><span><span class="item_text">IPTV SUBSCRIPTION</span></span><i class="menu-item__plus"></i></a></li><li id="menu-item-3655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3655"><a href="/iptv/pages/contactUs.php"><span><span class="item_text">INSTALLATION GUIDE</span></span><i class="menu-item__plus"></i></a></li></ul></nav></div></div></div></div></div></div></header><div class="side-panel_overlay"></div><section id="side-panel" class="side-panel side-panel_position_right" style="background-color: rgba(255,255,255,1);color: #616161;width: 370px;text-align: left;"><button class="side-panel_close"><span class="side-panel_close_icon"><span></span><span></span></span></button><div class="side-panel_sidebar" style="padding-top:50px; padding-bottom:50px; padding-left:50px; padding-right:50px;"><div id="nav_menu-2" class="widget starlitte_widget widget_nav_menu"><div class="menu-sidepanel-menu-container"><ul id="menu-sidepanel-menu" class="menu"><li id="menu-item-3642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3642"><a href="/iptv/pages/channel.php">VIEW CART</a></li>
+<li id="menu-item-3644" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3644"><a href="/iptv/pages/trial.php">VISIT STORE</a></li>
+<li id="menu-item-3645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3645"><a href="/iptv/pages/login.php">YOUR ACCOUNT</a></li>
 </ul></div></div></div></section>    <main id="main" class="site-main">
 <div class="wgl-container"><div class="row "><div id="main-content" class="wgl_col-12">		<div data-elementor-type="wp-page" data-elementor-id="1995" class="elementor elementor-1995">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-4a0658b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4a0658b" data-element_type="section">
@@ -294,7 +294,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 							--><a
 								id="slider-2-slide-2-layer-6"
 								class="rs-layer rev-btn"
-								href="https://tivistation.com/billing/cart.php?a=add&pid=6" target="_self"
+								href="/iptv/pages/monthly.php" target="_self"
 								data-type="button"
 								data-rsp_ch="on"
 								data-xy="xo:33px,31px,23px,17px;yo:449px,506px,506px,422px;"
@@ -381,7 +381,7 @@ Entertainment.
 							--><a
 								id="slider-2-slide-3-layer-6"
 								class="rs-layer rev-btn"
-								href="https://tivistation.com/billing/cart.php?a=add&pid=2" target="_self"
+								href="/iptv/pages/yearly.php" target="_self"
 								data-type="button"
 								data-rsp_ch="on"
 								data-xy="xo:33px,31px,23px,17px;yo:449px,506px,506px,422px;"
@@ -480,7 +480,7 @@ Entertainment.
 							--><a
 								id="slider-2-slide-4-layer-6"
 								class="rs-layer rev-btn"
-								href="https://tivistation.com/billing/cart.php?a=add&pid=4" target="_self"
+								href="/iptv/pages/yearly.php" target="_self"
 								data-type="button"
 								data-rsp_ch="on"
 								data-xy="xo:33px,31px,23px,17px;yo:449px,506px,506px,422px;"
@@ -605,7 +605,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=5"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/trial.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -624,7 +624,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=6"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/monthly.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -643,7 +643,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=2"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/yearly.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -662,7 +662,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=3"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/yearly.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -700,7 +700,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=4"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/yearly.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -719,7 +719,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=7"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/lifetime.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -738,7 +738,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=8"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/lifetime.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -757,7 +757,7 @@ Entertainment.
                 <div class="pricing_content">
                     <ul><li>23000+ TV Channels</li><li>80000+ Movies</li><li>14000+ TV-series</li><li>500± Adult/Porn TV Channels</li><li>4K, FHD, HD &amp; SD Channels</li><li>EPG - Electronic TV Guide</li><li>AntiFreeze Technology</li><li>99.99% Uptime</li></ul>                </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=9"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/lifetime.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -1242,7 +1242,7 @@ Entertainment.
                 <div class="pricing_content">
                                     </div>
                 <div class="pricing_footer">
-	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="https://tivistation.com/billing/cart.php?a=add&#038;pid=8"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
+	                <div class="button-wrapper"><a  class="wgl-button btn-size-xl " role="button" href="/iptv/pages/lifetime.php"><div class="button-content-wrapper align-icon-right"><div class="media-wrapper icon-wrapper"><span class="wgl-icon" ><i class="icon elementor-icon fas fa-plus" aria-hidden="true"></i></span></div><span class="wgl-button-text">SUBSCRIBE NOW</span></div></a></div>                </div>
             </div>
         </div>		</div>
 				</div>
@@ -1477,7 +1477,7 @@ What steps should I take if my account is not functioning properly?</span><i cla
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-b7056fb elementor-widget elementor-widget-wgl-header-logo" data-id="b7056fb" data-element_type="widget" data-widget_type="wgl-header-logo.default">
 				<div class="elementor-widget-container">
-			<div class="wgl-logotype-container default_logo"><a href="https://tivistation.com/"><img class="default_logo" src="https://tivistation.com/wp-content/uploads/2021/01/mobile-logo.png" alt="logotype"></a></div>		</div>
+			<div class="wgl-logotype-container default_logo"><a href="/iptv/index.php"><img class="default_logo" src="https://tivistation.com/wp-content/uploads/2021/01/mobile-logo.png" alt="logotype"></a></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-7a0bcd1 elementor-widget elementor-widget-spacer" data-id="7a0bcd1" data-element_type="widget" data-widget_type="spacer.default">
 				<div class="elementor-widget-container">
@@ -1532,7 +1532,7 @@ What steps should I take if my account is not functioning properly?</span><i cla
 				</div>
 				<div class="elementor-element elementor-element-6129b29 hover_links elementor-widget elementor-widget-text-editor" data-id="6129b29" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p><a href="https://tivistation.com/billing/clientarea.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">My Account</a></p><p><a href="https://tivistation.com/billing/submitticket.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Get Support</a></p><p><a href="/affiliate-program/" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Affiliate Program</a></p><p><a href="/installation-guide/" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Installation Guide</a></p><p><a href="https://tivistation.com/billing/cart.php?a=add&amp;pid=9" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Lifetime Subscription</a></p>						</div>
+							<p><a href="/iptv/pages/login.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">My Account</a></p><p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Get Support</a></p><p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Affiliate Program</a></p><p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Installation Guide</a></p><p><a href="/iptv/pages/lifetime.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Lifetime Subscription</a></p>						</div>
 				</div>
 					</div>
 		</div>
@@ -1558,7 +1558,7 @@ What steps should I take if my account is not functioning properly?</span><i cla
 				</div>
 				<div class="elementor-element elementor-element-31ee98c hover_links elementor-widget elementor-widget-text-editor" data-id="31ee98c" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p><a href="/our-journey/" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Our Journey</a></p><p><a href="/dmca-policy/" style="color: #bcbcbc; margin-bottom: 6px; display: block;">DMCA Policy</a></p><p><a href="/refund-policy/" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Refund Policy</a></p><p><a href="/privacy-policy/" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Privacy Policy</a></p><p><a href="/terms-conditions/" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Terms &amp; Conditions</a></p>						</div>
+							<p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Our Journey</a></p><p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">DMCA Policy</a></p><p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Refund Policy</a></p><p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Privacy Policy</a></p><p><a href="/iptv/pages/contactUs.php" style="color: #bcbcbc; margin-bottom: 6px; display: block;">Terms &amp; Conditions</a></p>						</div>
 				</div>
 					</div>
 		</div>
@@ -1616,7 +1616,7 @@ What steps should I take if my account is not functioning properly?</span><i cla
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-06fa11f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="06fa11f" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p><a href="/dmca-policy/">DMCA Policy</a></p>						</div>
+							<p><a href="/iptv/pages/contactUs.php">DMCA Policy</a></p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-76e8ded elementor-widget__width-initial elementor-widget elementor-widget-wgl-header-delimiter" data-id="76e8ded" data-element_type="widget" data-widget_type="wgl-header-delimiter.default">
 				<div class="elementor-widget-container">
@@ -1624,7 +1624,7 @@ What steps should I take if my account is not functioning properly?</span><i cla
 				</div>
 				<div class="elementor-element elementor-element-9d4d9f8 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="9d4d9f8" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p><a href="/refund-policy/">Refund Policy</a></p>						</div>
+							<p><a href="/iptv/pages/contactUs.php">Refund Policy</a></p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-5adeb98 elementor-widget__width-initial elementor-widget elementor-widget-wgl-header-delimiter" data-id="5adeb98" data-element_type="widget" data-widget_type="wgl-header-delimiter.default">
 				<div class="elementor-widget-container">
