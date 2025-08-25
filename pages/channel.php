@@ -9,7 +9,7 @@ $page_description = 'Regardez votre chaîne IPTV préférée';
 $channelId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
 if (!$channelId) {
-    header('Location: ' . getPageUrl('channels.php'));
+    header('Location: /iptv/pages/channel.php');
     exit;
 }
 
@@ -83,7 +83,17 @@ if (empty($similarChannels)) {
 }
 ?>
 
-<?php include __DIR__ . '/../includes/header.php'; ?>
+<?php
+// Include the head section
+include_once '../includes/head.php';
+?>
+
+<body class="primary-bg-color" data-phone-cc-input="1">
+
+<?php
+// Include the header
+include_once '../includes/header.php';
+?>
 
 <div class="container">
     <!-- En-tête de la chaîne -->
