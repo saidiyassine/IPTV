@@ -49,22 +49,22 @@ include_once '../includes/header.php';
 
         
                     <div class="list-group collapsable-card-body">
-                                                            <a menuItemName="Trial" href="/billing/index.php?rp=/store/trial" class="list-group-item list-group-item-action active" id="Secondary_Sidebar-Categories-Trial">
+                                                            <a menuItemName="Trial" href="trial.php" class="list-group-item list-group-item-action active" id="Secondary_Sidebar-Categories-Trial">
                             
                             Trial
 
                                                     </a>
-                                                                                <a menuItemName="Monthly" href="/billing/index.php?rp=/store/monthly" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Monthly">
+                                                                                <a menuItemName="Monthly" href="monthly.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Monthly">
                             
                             Monthly
 
                                                     </a>
-                                                                                <a menuItemName="Yearly" href="/billing/index.php?rp=/store/yearly" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Yearly">
+                                                                                <a menuItemName="Yearly" href="yearly.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Yearly">
                             
                             Yearly
 
                                                     </a>
-                                                                                <a menuItemName="Lifetime" href="/billing/index.php?rp=/store/lifetime" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Lifetime">
+                                                                                <a menuItemName="Lifetime" href="lifetime.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Lifetime">
                             
                             Lifetime
 
@@ -87,7 +87,7 @@ include_once '../includes/header.php';
 
         
                     <div class="list-group collapsable-card-body">
-                                                            <a menuItemName="View Cart" href="/billing/cart.php?a=view" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Actions-View_Cart">
+                                                            <a menuItemName="View Cart" href="view_cart.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Actions-View_Cart">
                                                             <i class="fas fa-shopping-cart fa-fw"></i>&nbsp;
                             
                             View Cart

@@ -53,7 +53,4 @@ ga('create', 'G-ESC1W7JB0D', { cookieDomain: 'worthystream.com' });
 ga('send', 'pageview');
 
 </script>
-<!-- End Google Analytics -->
-
-
 </head>

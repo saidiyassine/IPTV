@@ -45,7 +45,7 @@ include_once '../includes/header.php';
                                                                                                 Already registered with us? If so, click the button below to login to our client area from where you can manage your account.
                             </div>
                                                                                                 <a menuItemName="Login"
-                               href="/billing/login.php"
+                               href="login.php"
                                class="list-group-item list-group-item-action"
                                                                                                                                                            id="Primary_Sidebar-Already_Registered-Login"
                             >
@@ -59,7 +59,7 @@ include_once '../includes/header.php';
                                                                     </div>
                             </a>
                                                                                                 <a menuItemName="Lost Password Reset"
-                               href="/billing/index.php?rp=/password/reset"
+                               href="resetPassword.php"
                                class="list-group-item list-group-item-action"
                                                                                                                                                            id="Primary_Sidebar-Already_Registered-Lost_Password_Reset"
                             >

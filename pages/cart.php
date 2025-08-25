@@ -1,7 +1,11 @@
+
+<!doctype html>
+<html lang="en">
 <?php
 // Include the head section
 include_once '../includes/head.php';
 ?>
+
 <body class="primary-bg-color" data-phone-cc-input="1">
 
     
@@ -11,7 +15,6 @@ include_once '../includes/head.php';
 include_once '../includes/header.php';
 ?>
 
-    
 
     
     <nav class="master-breadcrumb" aria-label="breadcrumb">
@@ -33,12 +36,19 @@ include_once '../includes/header.php';
                         <div class="col-12 primary-content">
 
 
-
                         <link rel="stylesheet" type="text/css" href="../assets/css/cart/all.min.css" />
                         <script type="text/javascript" src="../assets/js/cart/scripts.min.js?v=2ecd99"></script>
+<script>
+var _localLang = {
+    'addToCart': 'Add to Cart',
+    'addedToCartRemove': 'Added to Cart (Remove)'
+}
+</script>
+
 <div id="order-standard_cart">
+
     <div class="row">
-        <div class="cart-sidebar sidebar">
+        <div class="cart-sidebar">
                 <div menuItemName="Categories" class="panel card card-sidebar mb-3 panel-sidebar">
         <div class="panel-heading card-header">
             <h3 class="panel-title">
@@ -68,7 +78,7 @@ include_once '../includes/header.php';
                             Yearly
 
                                                     </a>
-                                                                                <a menuItemName="Lifetime" href="lifetime.php" class="list-group-item list-group-item-action active" id="Secondary_Sidebar-Categories-Lifetime">
+                                                                                <a menuItemName="Lifetime" href="lifetime.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Lifetime">
                             
                             Lifetime
 
@@ -105,11 +115,9 @@ include_once '../includes/header.php';
         <div class="cart-body">
 
             <div class="header-lined">
-                <h1 class="font-size-36">
-                                            Lifetime
-                                    </h1>
-                            </div>
-            
+                <h1 class="font-size-36">Configure</h1>
+            </div>
+
             <div class="sidebar-collapsed">
 
             <div class="panel card panel-default">
@@ -137,11 +145,12 @@ include_once '../includes/header.php';
                         Yearly
 
                                             </option>
-                                                        <option menuItemName="Lifetime" value="/billing/index.php?rp=/store/lifetime" class="list-group-item" selected="selected">
+                                                        <option menuItemName="Lifetime" value="/billing/index.php?rp=/store/lifetime" class="list-group-item" >
                         Lifetime
 
                                             </option>
-                                                                                                            </select>
+                                                                        <option value="" class="list-group-item" selected=""selected>- Choose Another Category -</option>
+                            </select>
         </form>
     </div>
 
@@ -173,47 +182,114 @@ include_once '../includes/header.php';
     
 </div>
 
-            <div class="products" id="products">
-                <div class="row row-eq-height">
-                                                                <div class="col-md-6">
-                        <div class="product clearfix" id="product9">
-                            <header>
-                                <span id="product9-name">LIFETIME</span>
-                                                            </header>
-                            <div class="product-desc">
-                                                                    <p id="product9-description">
-                                        23000+ TV Channels<br />
+            <form id="frmConfigureProduct">
+                <input type="hidden" name="configure" value="true" />
+                <input type="hidden" name="i" value="0" />
+
+                <div class="row">
+                    <div class="secondary-cart-body">
+
+                        <p>Configure your desired options and continue to checkout.</p>
+
+                        <div class="product-info">
+                            <p class="product-title">1 MONTH</p>
+                            <p>23000+ TV Channels<br />
 80000+ Movies<br />
 14000+ TV-series<br />
 500± Adult/Porn TV Channels<br />
 4K, FHD, HD & SD Channels<br />
 EPG - Electronic TV Guide<br />
 AntiFreeze Technology<br />
-99.99% Uptime<br />
-
-                                    </p>
-                                                                <ul>
-                                                                    </ul>
-                            </div>
-                            <footer>
-                                <div class="product-pricing" id="product9-price">
-                                                                                                                    <span class="price">$365.00 USD</span>
-                                        <br />
-                                                                                <br>
-                                                                                                            </div>
-                                <a href="/billing/index.php?rp=/store/lifetime/lifetime" class="btn btn-success btn-sm btn-order-now" id="product9-order-button">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Order Now
-                                </a>
-                            </footer>
+99.99% Uptime</p>
                         </div>
+
+                        <div class="alert alert-danger w-hidden" role="alert" id="containerProductValidationErrors">
+                            <p>Please correct the following errors before continuing:</p>
+                            <ul id="containerProductValidationErrorsList"></ul>
+                        </div>
+
+                                                    <div class="field-container">
+                                <div class="form-group">
+                                    <label for="inputBillingcycle">Choose Billing Cycle</label>
+                                    <br>
+                                    <select name="billingcycle" id="inputBillingcycle" class="form-control select-inline custom-select" onchange="updateConfigurableOptions(0, this.value); return false">
+                                                                                    <option value="monthly" selected>
+                                                $15.00 USD Monthly
+                                            </option>
+                                                                                                                                                                                                                                                                                    </select>
+                                </div>
+                            </div>
+                        
+                        
+                        
+                        
+                        
+                            <div class="sub-heading pb-1">
+                                <span class="primary-bg-color">Additional Required Information<br><i><small>orderForm.requiredField</small></i></span>
+                            </div>
+
+                            <div class="field-container">
+                                                                    <div class="form-group">
+                                        <label for="customfield38">Device Type *</label>
+                                        <select name="customfield[38]" id="customfield38" class="form-control custom-select"><option value="Smart TV (Samsung/Sony/LG)" selected>Smart TV (Samsung/Sony/LG)</option><option value="Fire TVStick/Fire TVStick 4K/Fire TVCube">Fire TVStick/Fire TVStick 4K/Fire TVCube</option><option value="PC/MAC (VLC Software)">PC/MAC (VLC Software)</option><option value="Apple (iPhone/iPad/Apple TV)">Apple (iPhone/iPad/Apple TV)</option><option value="Android (Smartphones/Android Box)">Android (Smartphones/Android Box)</option><option value="Android TV (Perfect Player)">Android TV (Perfect Player)</option><option value="IPTV Smarters">IPTV Smarters</option><option value="KODI">KODI</option><option value="STB Emulator">STB Emulator</option><option value="MAGBOX">MAGBOX</option><option value="Enigma2/Dreambox/Vu+">Enigma2/Dreambox/Vu+</option><option value="Dreamlink">Dreamlink</option><option value="Openbox">Openbox</option><option value="AVOV BOX/Formuler">AVOV BOX/Formuler</option><option value="Others Device">Others Device</option></select>
+                                                                                    <span class="field-help-text">
+                                                Device, where you wants to use our service.
+                                            </span>
+                                                                            </div>
+                                                                    <div class="form-group">
+                                        <label for="customfield39">Mac Address/TV Mac/ID (Formuler) </label>
+                                        <input type="text" name="customfield[39]" id="customfield39" value="" size="30" class="form-control" />
+                                                                                    <span class="field-help-text">
+                                                MAGBOX/STB Emu/Dreamlink users have to provider their Mac Address.
+                                            </span>
+                                                                            </div>
+                                                                    <div class="form-group">
+                                        <label for="customfield41">XXX/18+/Adult Contents </label>
+                                        <select name="customfield[41]" id="customfield41" class="form-control custom-select"><option value="">None</option><option value="I want to have">I want to have</option><option value="I don&#039;t want to have">I don&#039;t want to have</option></select>
+                                                                                    <span class="field-help-text">
+                                                Select if you want to watch XXX/18+/Adult contents or not.
+                                            </span>
+                                                                            </div>
+                                                            </div>
+
+                        
+                        
+                        <div class="alert alert-warning info-text-sm">
+                            <i class="fas fa-question-circle"></i>
+                            Have questions? Contact our sales team for assistance. <a href="/billing/contact.php" target="_blank" class="alert-link">Click here</a>
+                        </div>
+
                     </div>
-                                                        </div>
-            </div>
+                    <div class="secondary-cart-sidebar" id="scrollingPanelContainer">
+
+                        <div id="orderSummary">
+                            <div class="order-summary">
+                                <div class="loader" id="orderSummaryLoader">
+                                    <i class="fas fa-fw fa-sync fa-spin"></i>
+                                </div>
+                                <h2 class="font-size-30">Order Summary</h2>
+                                <div class="summary-container" id="producttotal"></div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" id="btnCompleteProductConfig" class="btn btn-primary btn-lg">
+                                    Continue
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
         </div>
     </div>
 </div>
 
+<script>recalctotals();</script>
+
+<div class="hidden" id="divProductHasRecommendations" data-value=""></div>
 <div class="modal fade" id="recommendationsModal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -335,7 +411,7 @@ AntiFreeze Technology<br />
         </div>
     </div>
 
-    <form method="get" action="/billing/index.php?rp=%2Fstore%2Flifetime&">
+    <form method="get" action="/billing/cart.php?a=confproduct&i=0&">
         <div class="modal modal-localisation" id="modalChooseLanguage" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">

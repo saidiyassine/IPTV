@@ -1,210 +1,17 @@
-
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="noindex,nofollow"/>
-    <title>Submit Ticket - TiVistation</title>
-    <!-- Styling -->
-
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
-<!-- FontAwesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="../assets/css/login/all.min.css?v=2ecd99" rel="stylesheet">
-
-<link href="../assets/css/login/theme.min.css?v=2ecd99" rel="stylesheet">
-<link href="../assets/css/login/custom.css" rel="stylesheet">
-<link href="../assets/css/login/open-sans-family.css" rel="stylesheet" type="text/css" />
-     <script>
-      (function(d,t) {
-        var BASE_URL="https://app.chatshippo.com";
-        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=BASE_URL+"/packs/js/sdk.js";
-        g.defer = true;
-        g.async = true;
-        s.parentNode.insertBefore(g,s);
-        g.onload=function(){
-          window.chatshippoSDK.run({
-            websiteToken: 'ZVxeSVsUHAsJYvXuK9Rr75Cj',
-            baseUrl: BASE_URL
-          })
-        }
-      })(document,"script");
-    </script>
-
-<script>
-    var csrfToken = 'c61c02acc0bdde011a3a31d45da767ecef253582',
-        markdownGuide = 'Markdown Guide',
-        locale = 'en',
-        saved = 'saved',
-        saving = 'autosaving',
-        whmcsBaseUrl = "/billing";
-    </script>
-<script src="../assets/js/scripts.min.js?v=2ecd99"></script>
-
-    
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'G-ESC1W7JB0D', { cookieDomain: 'worthystream.com' });
-ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
-
-
-</head>
+<?php
+// Include the head section
+include_once '../includes/head.php';
+?>
 <body class="primary-bg-color" data-phone-cc-input="1">
 
     
 
-    <header id="header" class="header">
-        
-        <div class="navbar navbar-light">
-            <div class="container">
-                <a class="navbar-brand mr-3" href="/billing/index.php">
-                                            <img src="/billing/assets/img/logo.png" alt="TiVistation" class="logo-img">
-                                    </a>
+<?php
+// Include the header
+include_once '../includes/header.php';
+?>
 
-                <form method="post" action="/billing/index.php?rp=/knowledgebase/search" class="form-inline ml-auto">
-<input type="hidden" name="token" value="c61c02acc0bdde011a3a31d45da767ecef253582" />
-                    <div class="input-group search d-none d-xl-flex">
-                        <div class="input-group-prepend">
-                            <button class="btn btn-default" type="submit">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </div>
-                        <input class="form-control appended-form-control font-weight-light" type="text" name="search" placeholder="Search our knowledgebase...">
-                    </div>
-                </form>
-
-                <ul class="navbar-nav toolbar">
-                    <li class="nav-item ml-3">
-                        <a class="btn nav-link cart-btn" href="cart.php?a=view">
-                            <i class="far fa-shopping-cart fa-fw"></i>
-                            <span class="badge badge-info">0</span>
-                            <span class="sr-only">Shopping Cart</span>
-                        </a>
-                    </li>
-                    <li class="nav-item ml-3 d-xl-none">
-                        <button class="btn nav-link" type="button" data-toggle="collapse" data-target="#mainNavbar">
-                            <span class="fas fa-bars fa-fw"></span>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="navbar navbar-expand-xl main-navbar-wrapper">
-            <div class="container">
-                <div class="collapse navbar-collapse" id="mainNavbar">
-                    <form method="post" action="/billing/index.php?rp=/knowledgebase/search" class="d-xl-none">
-<input type="hidden" name="token" value="c61c02acc0bdde011a3a31d45da767ecef253582" />
-                        <div class="input-group search w-100 mb-2">
-                            <div class="input-group-prepend">
-                                <button class="btn btn-default" type="submit">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </div>
-                            <input class="form-control prepended-form-control" type="text" name="search" placeholder="Search our knowledgebase...">
-                        </div>
-                    </form>
-                    <ul id="nav" class="navbar-nav mr-auto">
-                            <li menuItemName="Home" class="d-block no-collapse" id="Primary_Navbar-Home">
-        <a class="pr-4" href="/billing/index.php">
-                        Home
-                    </a>
-            </li>
-    <li menuItemName="Store" class="d-block dropdown no-collapse" id="Primary_Navbar-Store">
-        <a class="pr-4 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                        Buy a service
-                    </a>
-                    <ul class="dropdown-menu">
-                                                <li menuItemName="Browse Products Services" class="dropdown-item" id="Primary_Navbar-Store-Browse_Products_Services">
-                        <a href="/billing/index.php?rp=/store" class="dropdown-item px-2 py-0">
-                                                        Browse All
-                                                    </a>
-                    </li>
-                                                                <div class="dropdown-divider"></div>
-                                                                <li menuItemName="Trial" class="dropdown-item" id="Primary_Navbar-Store-Trial">
-                        <a href="/billing/index.php?rp=/store/trial" class="dropdown-item px-2 py-0">
-                                                        Trial
-                                                    </a>
-                    </li>
-                                                                <li menuItemName="Monthly" class="dropdown-item" id="Primary_Navbar-Store-Monthly">
-                        <a href="/billing/index.php?rp=/store/monthly" class="dropdown-item px-2 py-0">
-                                                        Monthly
-                                                    </a>
-                    </li>
-                                                                <li menuItemName="Yearly" class="dropdown-item" id="Primary_Navbar-Store-Yearly">
-                        <a href="/billing/index.php?rp=/store/yearly" class="dropdown-item px-2 py-0">
-                                                        Yearly
-                                                    </a>
-                    </li>
-                                                                <li menuItemName="Lifetime" class="dropdown-item" id="Primary_Navbar-Store-Lifetime">
-                        <a href="/billing/index.php?rp=/store/lifetime" class="dropdown-item px-2 py-0">
-                                                        Lifetime
-                                                    </a>
-                    </li>
-                                        </ul>
-            </li>
-    <li menuItemName="Announcements" class="d-block" id="Primary_Navbar-Announcements">
-        <a class="pr-4" href="/billing/index.php?rp=/announcements">
-                        Announcements
-                    </a>
-            </li>
-    <li menuItemName="Affiliates" class="d-block" id="Primary_Navbar-Affiliates">
-        <a class="pr-4" href="/billing/affiliates.php">
-                        Affiliates
-                    </a>
-            </li>
-    <li menuItemName="Contact Us" class="d-block" id="Primary_Navbar-Contact_Us">
-        <a class="pr-4" href="/billing/contact.php">
-                        Contact Us
-                    </a>
-            </li>
-    <li class="d-none dropdown collapsable-dropdown">
-        <a class="dropdown-toggle" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            More
-        </a>
-        <ul class="collapsable-dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenu">
-        </ul>
-    </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                            <li menuItemName="Account" class="d-block no-collapse dropdown no-collapse" id="Secondary_Navbar-Account">
-        <a class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                        Account
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-right">
-                                                <li menuItemName="Login" class="dropdown-item" id="Secondary_Navbar-Account-Login">
-                        <a href="/billing/clientarea.php" class="dropdown-item px-2 py-0">
-                                                        Login
-                                                    </a>
-                    </li>
-                                                                <li menuItemName="Register" class="dropdown-item" id="Secondary_Navbar-Account-Register">
-                        <a href="/billing/register.php" class="dropdown-item px-2 py-0">
-                                                        Register
-                                                    </a>
-                    </li>
-                                                                <div class="dropdown-divider"></div>
-                                                                <li menuItemName="Forgot Password?" class="dropdown-item" id="Secondary_Navbar-Account-Forgot_Password?">
-                        <a href="/billing/index.php?rp=/password/reset" class="dropdown-item px-2 py-0">
-                                                        Forgot Password?
-                                                    </a>
-                    </li>
-                                        </ul>
-            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
+    
 
     
     <nav class="master-breadcrumb" aria-label="breadcrumb">
@@ -245,22 +52,22 @@ ga('send', 'pageview');
 
         
                     <div class="list-group collapsable-card-body">
-                                                            <a menuItemName="Trial" href="/billing/index.php?rp=/store/trial" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Trial">
+                                                            <a menuItemName="Trial" href="trial.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Trial">
                             
                             Trial
 
                                                     </a>
-                                                                                <a menuItemName="Monthly" href="/billing/index.php?rp=/store/monthly" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Monthly">
+                                                                                <a menuItemName="Monthly" href="monthly.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Monthly">
                             
                             Monthly
 
                                                     </a>
-                                                                                <a menuItemName="Yearly" href="/billing/index.php?rp=/store/yearly" class="list-group-item list-group-item-action active" id="Secondary_Sidebar-Categories-Yearly">
+                                                                                <a menuItemName="Yearly" href="yearly.php" class="list-group-item list-group-item-action active" id="Secondary_Sidebar-Categories-Yearly">
                             
                             Yearly
 
                                                     </a>
-                                                                                <a menuItemName="Lifetime" href="/billing/index.php?rp=/store/lifetime" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Lifetime">
+                                                                                <a menuItemName="Lifetime" href="lifetime.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Lifetime">
                             
                             Lifetime
 
@@ -283,7 +90,7 @@ ga('send', 'pageview');
 
         
                     <div class="list-group collapsable-card-body">
-                                                            <a menuItemName="View Cart" href="/billing/cart.php?a=view" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Actions-View_Cart">
+                                                            <a menuItemName="View Cart" href="view_cart.php" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Actions-View_Cart">
                                                             <i class="fas fa-shopping-cart fa-fw"></i>&nbsp;
                             
                             View Cart
